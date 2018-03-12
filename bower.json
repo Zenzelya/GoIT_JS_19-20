@@ -1,0 +1,23 @@
+{
+  "name": "JS 19-20",
+  "description": "Home work",
+  "main": "",
+  "authors": [
+    "Kelhankin <Kelhankin@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/zenzelya/GoIT_JS_19-20",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.*",
+    "font-awesome": "fontawesome#^4.6.3",
+    "normalize-css": "normalize.css#^4.2.0",
+    "owl-carousel-sass": "^1.3.3"
+  }
+}

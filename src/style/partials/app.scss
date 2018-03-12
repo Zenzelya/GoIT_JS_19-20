@@ -1,0 +1,11 @@
+.container {
+	width: 1160px;
+    margin: 0 auto;
+}
+.clearfix:after {
+    display: block;
+    content: '';
+    margin: auto;
+    clear: both
+}
+

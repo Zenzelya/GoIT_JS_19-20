@@ -1,0 +1,50 @@
+.services {
+    width: 100%;
+    height: 500px;
+    margin-top: 87px;
+    background-color: #2a2d32;
+}
+.services__header {
+    padding-top: 47px;
+    color: #ffffff;
+    font: 500 24px / 20px Ubuntu;
+}
+.services__item {
+    display: inline-block;
+    width: 260px;
+    height: 307px;
+    margin-right: 26px;
+    margin-top: 57px;
+}
+.services__img {
+	width: 260px;
+    height: 260px;
+}
+.services__img--img1 {
+    background: url(../img/background/services-img1.jpeg);
+}
+.services__img--img2 {
+    background: url(../img/background/services-img2.jpeg);
+}
+.services__img--img3 {
+    background: url(../img/background/services-img3.jpeg);
+}
+.services__img--img4 {
+    background: url(../img/background/services-img4.jpeg);
+}
+.services__overlay {
+    display: none;
+    background-color: rgba(36, 140, 236, 0.9);
+    width: 260px;
+    height: 260px;
+    text-align: center;
+    color: #fff;
+    font: 300 70px / 260px Ubuntu;
+    text-decoration: none;
+}
+.services__subheader {
+    margin-top: 34px;
+    color: #ffffff;
+    font: 500 16px / 20px Ubuntu;
+    text-align: center;
+}

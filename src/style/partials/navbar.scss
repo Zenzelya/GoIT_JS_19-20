@@ -1,0 +1,50 @@
+@import "sprite";
+
+.navbar {
+	width: 1160px;
+    height: 56px;
+    background-color: #2a2d32;
+    margin-top: 37px;
+    ul {
+        display: inline-block;
+        list-style: none;
+    }
+}
+.navbar__item {
+	display: inline-block;
+    width: 114px;
+    height: 56px;;
+    text-align: center;
+    border-right: 1px solid rgba(21, 21, 21, 0.5);
+    &--active {
+        background-color: #248cec;
+    }
+}
+
+.navbar__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    font: 400 14px / 57px 'Ubuntu Condensed';
+    text-align: center;
+    &:hover {
+        color: #f4b60d;
+        cursor: pointer;
+    }
+}
+#search-field {
+    height: 40px;
+    width: 241px;
+    float: right;
+    margin-top: 8px;
+    margin-right: 8px;
+    padding: 0 14px 0 15px;
+    border: 1px solid #000;
+    font: 400 12px / 20px Arial;
+    background: url(../img/background/search.png);
+    background-color: rgba(255, 255, 255, 0.05);
+    background-repeat: no-repeat;
+    background-position: 213px 13px;
+    color: rgba(255, 255, 255, 0.15);
+
+}

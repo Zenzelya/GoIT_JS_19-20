@@ -1,0 +1,33 @@
+.slider {
+    margin-top: 40px;
+}
+.slider__item {
+    position: relative;
+    width: 1160px;
+    height: 470px;
+    background-image: url(../img/background/carousel.jpeg);
+}
+.slider__item--inner {
+    position: absolute;
+    display: inline-block;
+    width: 119px;
+    height: 119px;
+}
+.slider__item--inner1 {
+    position: absolute;
+    top: 233px;
+    left: 36px;
+    width: 308px;
+    height: 197px;
+    background: url(../img/background/slider-header.png);
+}
+.slider__header {
+    color: #ffffff;
+    font: 500 54px / 52px Ubuntu;
+    text-transform: uppercase;
+    margin-left: 25px;
+    margin-top: 29px;
+    .slider__header--yellow {
+        color: #f4b60d;
+    }
+}

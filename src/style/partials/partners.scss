@@ -1,0 +1,30 @@
+@import "sprite";
+
+.partners {
+    display: inline-block;
+    height: 62px;
+    margin-top: 85px;
+}
+.partners--1 {
+    @include sprite ($partner1);
+    margin-right: 45px;
+}
+.partners--2 {
+    @include sprite ($partner2);
+    margin-right: 59px;
+}
+.partners--3 {
+    @include sprite ($partner3);
+    margin-right: 45px;
+}
+.partners--4 {
+    @include sprite ($partner4);
+    margin-right: 55px;
+}
+.partners--5 {
+    @include sprite ($partner5);
+    margin-right: 34px;
+}
+.partners--6 {
+    @include sprite ($partner6);
+}

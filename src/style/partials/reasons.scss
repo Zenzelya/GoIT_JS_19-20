@@ -1,0 +1,61 @@
+@import "sprite";
+
+.reasons__item {
+    display: inline-block;
+	width: 356px;
+    height: 176px;
+    margin-top: 74px;
+    margin-right: 26px;
+    float: left;
+}
+.reasons__number {
+	display: inline-block;
+    height: 64px;
+    width: 80px;
+    margin-right: 39px;
+    float: left;
+    margin-top: 20px;
+    color: rgba(42, 43, 46, 0.1);
+    font: 500 90px / 20px Ubuntu;
+}
+.reasons__main {
+    display: inline-block;
+	width: 237px;
+}
+.reasons__icon--icon1 {
+    @include sprite ($settings);
+}
+.reasons__icon--icon2 {
+    @include sprite ($params);
+}
+.reasons__icon--icon3 {
+    @include sprite ($truck);
+}
+.reasons__subheader {
+	color: #292b2e;
+    font: 500 20px / 20px Ubuntu;
+    margin-top: 18px;
+}
+.reasons__text {
+    height: 54px;
+    overflow: hidden;
+	color: #8a8a8a;
+    font: 400 13px / 20px Arial;
+    margin-top: 27px;
+}
+.reasons__more {
+    width: 94px;
+    height: 11px;
+    margin-top: 22px;
+}
+.reasons__more--text {
+    color: #2a2b2e;
+    font: 500 13px / 20px Ubuntu;
+    text-decoration: none;
+}
+.reasons__more--arrow {
+    color: #248cec;
+    margin-left: 2px;
+}
+
+

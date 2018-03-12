@@ -1,0 +1,20 @@
+/*
+* Third Party
+*/
+@import "../../bower_components/normalize-css/normalize.css";
+@import "../../bower_components/font-awesome/scss/font-awesome.scss";
+@import "../../bower_components/owl-carousel-sass/owl-carousel/scss/owl-carousel.scss";
+
+/*
+* Custom
+*/
+@import "partials/app";
+@import "partials/header";
+@import "partials/navbar";
+@import "partials/carousel";
+@import "partials/reasons";
+@import "partials/services";
+@import "partials/news";
+@import "partials/partners";
+@import "partials/footer";
+@import "partials/contacts";
